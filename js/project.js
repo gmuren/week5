@@ -1,3 +1,7 @@
+
+
+window.onload = function(){ 
+
 var inputF;
 
 
@@ -7,6 +11,7 @@ function calculateC() {
 	document.getElementById("solutionFtoC").innerHTML = outputFtoC.toFixed(2);
  };
 
+ 
 document.getElementById("convertFtoC").onclick = calculateC;
 
 var inputC;
@@ -19,3 +24,4 @@ function calculateF() {
 
 document.getElementById("convertCtoF").onclick = calculateF;
 
+};
