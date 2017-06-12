@@ -1,3 +1,84 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+
 .row {
-  padding: 20px;  
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+}
+
+#parentheader {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-top: 20%;
+}
+
+a.parentnav {
+	font-size: 35px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 50px;
+  	background-color: #305168;
+  	color: white;
+}
+
+a.parentnav:hover {
+	background-color: #5590ba;
+}
+
+#atop {
+	border-bottom: 20px;
+	border-color: white; 
+}
+
+#childnav {
+	background-color: #305168;
+	color: white;
+	text-align: center;
+	margin-top: 0 auto;
+	height: 92px;
+	padding-top: 50px;
+}
+
+
+#childnav a {
+	color: white;
+	font-size: 35px;
+	padding: 50px;
+	width: 200px;
+	height: 400px;
+}
+
+
+#childnav a:hover {
+	background-color: #5590ba;
+}
+
+div.row {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	margin-top: 300px;
+  	background-color: #305168;
+  	color: white;
+  	padding: 40px;
+}
+
+#convertFtoC {
+	display: block;
+}
+
+input {
+	margin: 25px;
+}
+
+button {
+	margin: 25px;
 }
